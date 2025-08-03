@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> meunovosigno.com.br</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="#" id="logo">logo</a>
+
+            <nav id="menu"> 
+               <button id="closeMenu">&#x2715;</button>
+               <a href="#">Página 1</a>
+               <a href="#">Página 2</a>
+               <a href="#">Página 3</a>
+               <a href="#">Página 4</a>            
+            </nav>
+
+            <button id="openMenu">&#9776;</button>
+        
+        </header>
+        <aside> 
+            <a href="#">Página 1</a>
+            <a href="#">Página 2</a>
+            <a href="#">Página 3</a>
+            <a href="#">Página 4</a> 
+        </aside>
+
+        <main>Main</main>
+
+        <footer> Footer</footer>
+
+        <script type="text/javascript">
+
+            openMenu.addEventListener('click', () => {
+                menu.style.display = 'flex'
+            })
+
+            closeMenu.addEventListener('click', () => {
+                menu.removeAttribute('style')
+            })
+            
+        </script>
+
+    </body>
+</html>      
